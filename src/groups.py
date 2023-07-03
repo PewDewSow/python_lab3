@@ -22,5 +22,5 @@ class Group:
     def get_all_email_group(self):
         return [student.email for student in self.list_students]
 
-    def check_student_by_group(self,student: Student):
+    def check_student_by_group(self, student: Student):
         return student in self.list_students

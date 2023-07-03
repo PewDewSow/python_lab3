@@ -1,3 +1,4 @@
+from src.members import Curator, Teacher, Student
 def main():
     pass
 
